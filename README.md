@@ -1,0 +1,2 @@
+# SynStyle
+ css styles
