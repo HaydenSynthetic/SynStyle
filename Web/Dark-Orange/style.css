@@ -1,0 +1,61 @@
+body 
+{
+    background-color: #222226;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: whitesmoke;
+}
+a, .button-link{
+    color: rgb(243, 166, 99);
+}
+a:hover, .button-link:hover{
+    color: rgb(255, 187, 128);
+}
+.button-plain{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(243, 166, 99);
+    border-radius: 3px;
+    color: rgb(243, 166, 99);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-plain:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 187, 128);
+    border-radius: 3px;
+    color: rgb(255, 187, 128);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-filled{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(243, 166, 99);
+    border-radius: 3px;
+    background-color: rgb(243, 166, 99);
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.button-filled:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 187, 128);
+    border-radius: 3px;
+    background-color: rgb(255, 187, 128);
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
